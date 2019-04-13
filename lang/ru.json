@@ -1,0 +1,14 @@
+{
+  "registered": "%s принял участие в розыгрыше!",
+  "unregistered": "%s больше не участвует",
+
+  "run_faggot": "Пидор дня: %s",
+  "mystats_faggot": "Пидор %s раз",
+  "stats_faggot": "Пидоры: %s",
+
+  "run_nice": "Красавчик дня: %s",
+  "mystats_nice": "Красавчик %s раз",
+  "stats_nice": "Красавчики: %s",
+
+  "error_occurred": "Что-то пошло не так :("
+}
