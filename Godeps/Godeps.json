@@ -1,0 +1,52 @@
+{
+	"ImportPath": "FaggotOfDayBot",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-redis/redis",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/consistenthash",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/hashtag",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/pool",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/proto",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/util",
+			"Comment": "v6.15.2-20-gcb1c190",
+			"Rev": "cb1c190bedafb36eec264144dce3ed0cce49db21"
+		},
+		{
+			"ImportPath": "github.com/go-telegram-bot-api/telegram-bot-api",
+			"Comment": "v4.6.4-10-gec221ba",
+			"Rev": "ec221ba9ea458cd5386c35dd90af04b8a895f8eb"
+		},
+		{
+			"ImportPath": "github.com/technoweenie/multipartstreamer",
+			"Comment": "v1.0.1",
+			"Rev": "a90a01d73ae432e2611d178c18367fbaa13e0154"
+		}
+	]
+}
