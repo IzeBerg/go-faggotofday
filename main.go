@@ -89,7 +89,7 @@ func (s Results) UnmarshalBinary(data []byte) error {
 
 func saveResults(db *redis.Client, chatID int64, faggotID, niceID int) {
 	data, _ := json.Marshal([]int{faggotID, niceID})
-	if err := db.Set(strconv.FormatInt(chatID, 10) + `-result`, data, time.Minute).Err(); err != nil {
+	if err := db.Set(strconv.FormatInt(chatID, 10) + `-result`, data, time.Hour*24).Err(); err != nil {
 		log.Println(err)
 	}
 }
