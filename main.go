@@ -209,7 +209,7 @@ func main() {
 				if update.Message != nil {
 					updateFullName(db, update.Message.From)
 					if update.Message.IsCommand() && update.Message.Chat.IsSuperGroup() || update.Message.Chat.IsGroup() {
-						go processCommand(lang, db, bot, update)
+						processCommand(lang, db, bot, update)
 					}
 				}
 			}
